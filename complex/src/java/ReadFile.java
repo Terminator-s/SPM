@@ -2,7 +2,7 @@ import controlStructure.ControlStructure;
 
 import java.io.*;
 
-public class UploadFile implements iUploadFile {
+public class ReadFile implements iReadFile {
     File uploadFile = null;
     int noOfLines = 0;
 
@@ -20,16 +20,17 @@ public class UploadFile implements iUploadFile {
             //iterate line by line
             while ((line = buff.readLine()) != null) {
 
-                //call for size factor
-                cs.getValueForLine();
-                //call for inheritance factor
+                //call for size factor**************
+                cs.cSetValueForLine(line);
+                //call for inheritance factor*********************
 
 
                 noOfLines++;
             }
-
             buff.close();
             reader.close();
+
+            System.out.println("number of lines are: "+noOfLines);
 
         } catch(FileNotFoundException e){
             e.printStackTrace();

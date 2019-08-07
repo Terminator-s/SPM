@@ -1,6 +1,6 @@
 import java.io.File;
 
-public interface iUploadFile {
+public interface iReadFile {
 
     void getFile(File uploadFile);
 }

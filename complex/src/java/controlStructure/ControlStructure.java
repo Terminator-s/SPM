@@ -3,13 +3,19 @@ package controlStructure;
 import java.util.ArrayList;
 
 public class ControlStructure implements iControlStructure {
+    private ArrayList Ctc;
 
-    ControlStructure(){}
+    public ControlStructure(){
+        Ctc = null;
+    }
 
-    public ArrayList getValueForLine() {
+    @Override
+    public void cSetValueForLine(String input) {
 
+    }
 
-
+    @Override
+    public ArrayList cGetArray() {
         return Ctc;
     }
 
