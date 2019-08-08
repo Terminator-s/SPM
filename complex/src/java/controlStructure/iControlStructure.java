@@ -1,8 +1,8 @@
 package controlStructure;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public interface iControlStructure {
-    void cSetValueForLine(String input);
-    ArrayList cGetArray();
+    void cSetValueForLine(String inputLine, int lineNumber);
+    HashMap<Integer, Integer> cGetValues();
 }
