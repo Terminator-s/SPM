@@ -11,6 +11,7 @@ public class ReadFile implements iReadFile {
 //        StringBuilder sb = new StringBuilder();
 
         //control structure object
+        Size size = new Size;
         ControlStructure cs = new ControlStructure();
 
         try{
@@ -24,6 +25,7 @@ public class ReadFile implements iReadFile {
                 noOfLines++;
 
                 //call for size factor**************
+                size.checkLineForTokens(line);
                 cs.cSetValueForLine(line,noOfLines);
                 //call for inheritance factor*********************
 
