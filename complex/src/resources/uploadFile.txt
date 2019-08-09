@@ -1,0 +1,15 @@
+package com.hackerthon.service;
+
+import java.sql.Connection;
+
+
+class EmployeeService extends UtilC {
+
+	private final ArrayList<Employee> el = new ArrayList<Employee>();
+
+	public EmployeeService() {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			}
+	}
+}

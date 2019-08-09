@@ -1,5 +1,0 @@
-{
-  "conditional":["if", "else", "catch"],
-  "iterative": ["for", "while", "do-while"],
-  "1": ["catch"]
-}
