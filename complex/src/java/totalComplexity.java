@@ -24,7 +24,7 @@ public class totalComplexity {
 
     // call all methods and access the array values for calculation
 
-    //Call cGetArray from ControlStructure class for Cs calculation
+    //Call cGetArray methode from ControlStructure class for Cs calculation
     ControlStructure cs = new ControlStructure();
     int arr[] = cs.cGetArray();
 
