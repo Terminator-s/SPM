@@ -26,7 +26,21 @@ public class totalComplexity {
 
     //Call cGetArray from ControlStructure class for Cs calculation
     ControlStructure cs = new ControlStructure();
-    cs.cGetArray();
+    int arr[] = cs.cGetArray();
+
+    // method for sumCs of elements in an array
+    static int sumCs()
+    {
+        int sumCs = 0; // initialize sum
+        int i;
+
+        // Iterate through all elements and add them to sum
+        for (i = 0; i < arr.length; i++)
+            sumCs +=  arr[i];
+            Cs = sumCs;
+
+        return Cs;
+    }
 
     // Calculate Total weight (TW)
     // TW = Ctc + Cnc + Ci
@@ -48,10 +62,5 @@ public class totalComplexity {
         Cp  = Cps + Cr
         return Cps;
     }
-
-
-
-
-
 
 }
