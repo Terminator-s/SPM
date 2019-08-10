@@ -3,30 +3,34 @@ import controlStructure.ControlStructure;
 import java.io.*;
 
 public class ReadFile implements iReadFile {
-    File uploadFile = null;
-    int noOfLines = 0;
+//    private File uploadFile = null;
+    private int noOfLines = 0;
 
     @Override
     public void getFile(File uploadFile) {
-        StringBuilder sb = new StringBuilder();
+//        StringBuilder sb = new StringBuilder();
 
+        //control structure object
         ControlStructure cs = new ControlStructure();
+
         try{
             //read the file
             FileReader reader = new FileReader("C:\\Users\\rusnlk\\Desktop\\EmployeeService.java");
             BufferedReader buff = new BufferedReader(reader);
-            String line = null;
+            String line;
 
             //iterate line by line
             while ((line = buff.readLine()) != null) {
+                noOfLines++;
 
                 //call for size factor**************
-                cs.cSetValueForLine(line);
+                cs.cSetValueForLine(line,noOfLines);
                 //call for inheritance factor*********************
 
 
-                noOfLines++;
+
             }
+
             buff.close();
             reader.close();
 
@@ -35,7 +39,7 @@ public class ReadFile implements iReadFile {
         } catch(FileNotFoundException e){
             e.printStackTrace();
         } catch(IOException e){
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 }
