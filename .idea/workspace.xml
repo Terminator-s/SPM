@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f306d734-d378-45b4-bba0-8eda5121dc64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/complex/src/java/Main/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SPM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/java/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/java/iReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/iReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/java/totalComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-              <folding>
-                <element signature="e#2220#2221#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -106,8 +96,8 @@
         <option value="$PROJECT_DIR$/complex/src/java/Main/iReadFile.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/demo.java" />
         <option value="$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java" />
-        <option value="$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" />
+        <option value="$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java" />
       </list>
     </option>
   </component>
@@ -117,7 +107,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -176,6 +166,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,12 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565355443571</updated>
       <workItem from="1565355455845" duration="2282000" />
-      <workItem from="1565405621799" duration="10603000" />
+      <workItem from="1565405621799" duration="11817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12885000" />
+    <option name="totallyTimeSpent" value="14099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,11 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/Main/totalComplexity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding>
-            <element signature="e#2220#2221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
         </state>
       </provider>
     </entry>

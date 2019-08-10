@@ -23,6 +23,9 @@ public class totalComplexity {
     private int Cr;
     private int Cp;
 
+    int TotalCps = 0;
+    int TotalCr = 0;
+
     /*
 
     // call all methods and access the array values for calculation
@@ -50,18 +53,20 @@ public class totalComplexity {
     // Calculate complexity of a program statement (Cps)
     // Cps = Cs * TW
     public int calculateCps(int Cs, int TW){
-        int TotalCps = 0;
         Cps = Cs * TW;
 
         TotalCps = TotalCps + Cps;
-        return Cps;
+        return TotalCps;
     }
 
     // check Recursive. if recursive is there Cr = Cps*2. if recursive is not there Cr = 0
     public int IsRecursive(boolean IsRecursive, int Cps) {
         if (IsRecursive == true) {
             Cr = Cps * 2;
-            return Cr;
+
+            TotalCr = TotalCr + Cr;
+            return TotalCr;
+
         } else {
             Cr = 0;
             return Cr;
@@ -71,12 +76,19 @@ public class totalComplexity {
 
     // Calculate complexity of a program (Cp)
     // Cp  = Cps + Cr
-    public int calculateCp(int Cps){
-        Cp  = Cps + this.Cr;
+    public int calculateCp(){
+        Cp  = this.TotalCps + this.TotalCr;
         return Cp;
     }
 
+    /*
     public void printDetails() {
-            System.out.println(Cps);
-    }
+            System.out.println("Cs :" + Cs + "/n" +
+                               "Ctc :" + Ctc + "/n" +
+                               "Cnc :" + Cnc + "/n" +
+                               "Ci :" + Ci + "/n" +
+                               "TW :" + TW + "/n" +
+                               "Cps :" + Cps + "/n" +
+                               "Cr :" + Cr + "/n");
+    }*/
 }
