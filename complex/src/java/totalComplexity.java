@@ -24,23 +24,16 @@ public class totalComplexity {
 
     // call all methods and access the array values for calculation
 
-    //Call cGetArray methode from ControlStructure class for Cs calculation
-    ControlStructure cs = new ControlStructure();
-    int arr[] = cs.cGetArray();
+    // call getTotalCs methode from Sizefactor for Cs calculation
+    Sizefactor cs =  new Sizefactor();
+    Cs = cs.getTotalCs();
 
-    // method for sumCs of elements in an array
-    static int sumCs()
-    {
-        int sumCs = 0; // initialize sum
-        int i;
+    // Call getCtc methode from controlStructure for Ctc calculation
+    controlStructure ctc =  new controlStructure();
+    Ctc ctc.getCTC();
 
-        // Iterate through all elements and add them to sum
-        for (i = 0; i < arr.length; i++)
-            sumCs +=  arr[i];
-            Cs = sumCs;
 
-        return Cs;
-    }
+
 
     // Calculate Total weight (TW)
     // TW = Ctc + Cnc + Ci
