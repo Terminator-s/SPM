@@ -1,4 +1,4 @@
-package sample;
+package Main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -16,7 +16,6 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void upload(){}
 
 
     public static void main(String[] args) {
