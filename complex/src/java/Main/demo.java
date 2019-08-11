@@ -1,11 +1,11 @@
 package Main;
 
-import Main.totalComplexity;
+import Main.TotalComplexity;
 
 public class demo {
 
     public static void main(String[] args) {
-       totalComplexity tc = new totalComplexity();
+        TotalComplexity tc = new TotalComplexity();
        tc.printDetails();
     }
 

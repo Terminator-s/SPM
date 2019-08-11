@@ -1,6 +1,6 @@
 package Main;
 
-public class totalComplexity {
+public class TotalComplexity {
     // Ctc = Measuring the complexity of a program statement due to type of control structures
     // Cnc = Measuring the complexity of a program statement due to nesting of control structures
     // Ci = Measuring the complexity of a program statement due to inheritance
@@ -55,17 +55,17 @@ public class totalComplexity {
     public int calculateCps(int Cs, int TW){
         Cps = Cs * TW;
 
-        TotalCps = TotalCps + Cps;
-        return TotalCps;
+        this.TotalCps = this.TotalCps + Cps;
+        return Cps;
     }
 
     // check Recursive. if recursive is there Cr = Cps*2. if recursive is not there Cr = 0
-    public int IsRecursive(boolean IsRecursive, int Cps) {
+    public int calculateCr(boolean IsRecursive, int Cps) {
         if (IsRecursive == true) {
             Cr = Cps * 2;
 
-            TotalCr = TotalCr + Cr;
-            return TotalCr;
+            this.TotalCr = this.TotalCr + Cr;
+            return Cr;
 
         } else {
             Cr = 0;
@@ -81,14 +81,14 @@ public class totalComplexity {
         return Cp;
     }
 
-    /*
+
     public void printDetails() {
-            System.out.println("Cs :" + Cs + "/n" +
-                               "Ctc :" + Ctc + "/n" +
-                               "Cnc :" + Cnc + "/n" +
-                               "Ci :" + Ci + "/n" +
-                               "TW :" + TW + "/n" +
-                               "Cps :" + Cps + "/n" +
-                               "Cr :" + Cr + "/n");
-    }*/
+            System.out.println("Cs :" + Cs +
+                               "Ctc :" + Ctc +
+                               "Cnc :" + Cnc +
+                               "Ci :" + Ci +
+                               "TW :" + TW +
+                               "Cps :" + Cps +
+                               "Cr :" + Cr );
+    }
 }

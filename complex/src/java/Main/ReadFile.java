@@ -1,23 +1,29 @@
-package Main;
+package Main;//import controlStructure.ControlStructure;
 
-//import controlStructure.ControlStructure;
+import org.json.simple.parser.ParseException;
+import size.SizeFactor;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
- public class ReadFile implements iReadFile {
+public class ReadFile  {
 //    private File uploadFile = null;
-    private int noOfLines = 0;
 
-    @Override
-    public void getFile(File uploadFile) {
+
+    public static void main(String[] args) throws IOException, ParseException {
+//    @Override
+//    public void getFile(File uploadFile) throws IOException, ParseException {
 //        StringBuilder sb = new StringBuilder();
 
         //control structure object
-        //ControlStructure cs = new ControlStructure();
+        int noOfLines = 0;
+        SizeFactor size = new SizeFactor();
+        TotalComplexity tc=new TotalComplexity();
 
-        try{
+        //ControlStructure cs = new ControlStructure();
             //read the file
-            FileReader reader = new FileReader("C:\\Users\\rusnlk\\Desktop\\EmployeeService.java");
+            FileReader reader = new FileReader("C:\\Users\\pavrlk\\Desktop\\SPM\\complex\\src\\resources\\EmployeeService.java");
             BufferedReader buff = new BufferedReader(reader);
             String line;
 
@@ -25,29 +31,19 @@ import java.io.*;
             while ((line = buff.readLine()) != null) {
                 noOfLines++;
 
-                //call for size factor**************
+                /* call for size factor************** */
+                size.checkLineForTokens(line);
+                int Cs = size.getTotalCs();
+
+                int Tw =tc.calculateTotalweight(4,5,6);
+                int Cps=tc.calculateCps(Cs,Tw);
+
+                System.out.println(line + "\t\t"+ Cs + "\t\t" + Tw + "\t\t" + Cps );
+
+
+
                 //cs.cSetValueForLine(line,noOfLines);
                 //call for inheritance factor*********************
-
-               /* // call getTotalCs methode from Sizefactor for Cs calculation
-                Sizefactor cs =  new Sizefactor();
-                Cs = cs.getTotalCs();
-
-                // Call getCtc methode from controlStructure for Ctc calculation
-                controlStructure ctc =  new controlStructure();
-                Ctc = ctc.getCTC();
-
-                // Call getCnc methode from controlStructure for Ctc calculation
-                controlStructure cnc =  new controlStructure();
-                Cns =  cnc.getCNS();
-
-                // Call getCi methode from inheritanceController for Ctc calculation
-                // inheritanceController ci =  new inheritanceController();
-                // Ci =  ci.getCNS();
-
-                */
-
-
 
 
 
@@ -58,10 +54,5 @@ import java.io.*;
 
             System.out.println("number of lines are: "+noOfLines);
 
-        } catch(FileNotFoundException e){
-            e.printStackTrace();
-        } catch(IOException e){
-            e.printStackTrace();
-        }
     }
 }
