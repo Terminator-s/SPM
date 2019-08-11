@@ -1,4 +1,5 @@
 package size;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,7 +14,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class Sizefactor {
+public class SizeFactor {
 
     private ArrayList<String> list = new ArrayList<String>();
     private int totalCs;
@@ -36,7 +37,7 @@ public class Sizefactor {
         this.totalCs = totalCs;
     }
 
-    public int checkLineForTokens(String line) throws FileNotFoundException, IOException, ParseException{
+    public void checkLineForTokens(String line) throws FileNotFoundException, IOException, ParseException{
 
         int Cs=0;
 
@@ -73,7 +74,7 @@ public class Sizefactor {
             }
         }
 
-        return Cs;
+        setTotalCs(Cs);
 
     }
 
@@ -106,7 +107,7 @@ public class Sizefactor {
         return Cs;
     }
 
-    public int checkForOther(String line) {
+    public int checkForOther(Object object,String line) {
         int Cs=0;
 
 
