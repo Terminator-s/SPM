@@ -5,12 +5,12 @@ import java.util.StringTokenizer;
 
 public class ControlStructure implements iControlStructure {
     private int lineValue;
-//    private int cnc;
-//    private HashMap<Integer, Integer> hm;
     private String[] conditionalKeywords = {"if(", "else(", "if", "else"};
     private String[] iterativeKeywords = {"while", "for", "do", "foreach"};
     private String[] statementKeywords = {"case"};
     private String[] operatorKeywords = {"&&", "||", "&", "|"};
+
+    private Nested ns = new Nested();
 
 
     public ControlStructure() {
@@ -23,20 +23,21 @@ public class ControlStructure implements iControlStructure {
         boolean iterative = false;
         boolean operator = false;
         int count = 0;
+        lineValue = 0;
 
         StringTokenizer stTokenizer = new StringTokenizer(inputLine);
         while (stTokenizer.hasMoreTokens()) {
-            lineValue = 0;
+
             //break words in each line
             word = stTokenizer.nextToken();
 
             //for checking conditional keywords
             for (int i = 0; i < conditionalKeywords.length; i++) {
                 if (conditionalKeywords[i].equals(word)) {
-                    lineValue += 3;
+                    lineValue += 1;
+                    ns.add();
                     condition = true;
                 }
-
             }
 
             //for checking iterative keywords
@@ -60,6 +61,10 @@ public class ControlStructure implements iControlStructure {
                     count++;
                 }
             }
+
+            if (word.equals("}")){
+                ns.remove();
+            }
         }
 
 
@@ -69,21 +74,6 @@ public class ControlStructure implements iControlStructure {
             lineValue += count;
         }
 
-//        try {
-//            hm.put(lineNumber, lineValue);
-//        }catch (NullPointerException e){
-//            System.out.println("error");
-//        }
-
         return lineValue;
     }
-
-//    public int getCNC(){
-//        return cnc;
-//    }
-
-//    public void setValueArray(int lineNumber,int lineValue){
-//
-//        hm.put(lineNumber,lineValue);
-//    }
 }
