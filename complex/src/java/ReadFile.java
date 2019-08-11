@@ -1,22 +1,27 @@
-import controlStructure.ControlStructure;
+//import controlStructure.ControlStructure;
 
 import java.io.*;
 
-public class ReadFile implements iReadFile {
-//    private File uploadFile = null;
-    private int noOfLines = 0;
+import org.json.simple.parser.ParseException;
+import size.SizeFactor;
 
-    @Override
-    public void getFile(File uploadFile) {
+public class ReadFile  {
+//    private File uploadFile = null;
+
+
+    public static void main(String[] args) throws IOException, ParseException {
+//    @Override
+//    public void getFile(File uploadFile) throws IOException, ParseException {
 //        StringBuilder sb = new StringBuilder();
 
         //control structure object
-        Size size = new Size;
-        ControlStructure cs = new ControlStructure();
+        int noOfLines = 0;
+        SizeFactor size = new SizeFactor();
+        TotalComplexity tc=new TotalComplexity();
 
-        try{
+        //ControlStructure cs = new ControlStructure();
             //read the file
-            FileReader reader = new FileReader("C:\\Users\\rusnlk\\Desktop\\EmployeeService.java");
+            FileReader reader = new FileReader("C:\\Users\\pavrlk\\Desktop\\SPM\\complex\\src\\resources\\EmployeeService.java");
             BufferedReader buff = new BufferedReader(reader);
             String line;
 
@@ -24,9 +29,18 @@ public class ReadFile implements iReadFile {
             while ((line = buff.readLine()) != null) {
                 noOfLines++;
 
-                //call for size factor**************
+                /* call for size factor************** */
                 size.checkLineForTokens(line);
-                cs.cSetValueForLine(line,noOfLines);
+                int Cs = size.getTotalCs();
+
+                int Tw =tc.calculateTotalweight(4,5,6);
+                int Cps=tc.calculateCps(Cs,Tw);
+
+                System.out.println(line + "\t\t"+ Cs + "\t\t" + Tw + "\t\t" + Cps );
+
+
+
+                //cs.cSetValueForLine(line,noOfLines);
                 //call for inheritance factor*********************
 
 
@@ -38,10 +52,5 @@ public class ReadFile implements iReadFile {
 
             System.out.println("number of lines are: "+noOfLines);
 
-        } catch(FileNotFoundException e){
-            e.printStackTrace();
-        } catch(IOException e){
-            e.printStackTrace();
-        }
     }
 }
