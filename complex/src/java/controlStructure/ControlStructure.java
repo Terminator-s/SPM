@@ -1,36 +1,79 @@
 package controlStructure;
 
-
-import javax.json.*;
-import java.util.HashMap;
+import java.util.StringTokenizer;
 
 public class ControlStructure implements iControlStructure {
-    private HashMap<Integer, Integer> Ctc;
     private int lineValue;
+    private String[] conditionalKeywords = {"if(", "else(", "if", "else"};
+    private String[] iterativeKeywords = {"while", "while(", "for(", "for", "do-while(", "do-while", "foreach", "foreach("};
+    private String[] statementKeywords = {"case:", "case"};
+    private String[] operatorKeywords = {"&&", "||", "&", "|"};
 
-    public ControlStructure(){
-        Ctc = null;
+    private Nested ns = new Nested();
+
+
+    public ControlStructure() {
+    }
+
+    @Override
+    public int getCTC(String inputLine, int lineNumber) {
+        String word;
+        boolean condition = false;
+        boolean iterative = false;
+        boolean operator = false;
+        int count = 0;
         lineValue = 0;
+
+        StringTokenizer stTokenizer = new StringTokenizer(inputLine);
+        while (stTokenizer.hasMoreTokens()) {
+
+            //break words in each line
+            word = stTokenizer.nextToken();
+
+            //for checking conditional keywords
+            for (int i = 0; i < conditionalKeywords.length; i++) {
+                if (conditionalKeywords[i].equals(word)) {
+                    lineValue++;
+                    ns.add();
+                    condition = true;
+                }
+            }
+
+            //for checking iterative keywords
+            for (int i = 0; i < iterativeKeywords.length; i++) {
+                if (iterativeKeywords[i].equals(word)) {
+                    iterative = true;
+                    lineValue++;
+                }
+            }
+
+            for (int i = 0; i < statementKeywords.length; i++) {
+                //for conditional keywords
+                if (statementKeywords[i].equals(word)) {
+                    lineValue += 2;
+                }
+            }
+
+            for (int i = 0; i < operatorKeywords.length; i++) {
+                //for conditional keywords
+                if (operatorKeywords[i].equals(word)) {
+                    operator = true;
+                    count++;
+                }
+            }
+
+            if (word.equals("}")){
+                ns.remove();
+            }
+        }
+
+
+        if (condition && operator) {
+            lineValue += count;
+        } else if (iterative && operator) {
+            lineValue += count;
+        }
+
+        return lineValue;
     }
-
-    @Override
-    public void cSetValueForLine(String inputLine, int lineNumber) {
-
-        //if conditions are present check for operator
-        //if()
-
-        //accessing the JSON file
-        JsonReader jsonReader = Json.createReader(getClass().getClassLoader().getResourceAsStream("controlStructureFactors.json"));
-        JsonObject jsonObject = jsonReader.readObject();
-
-        JsonArray conditional = (JsonArray) jsonObject.get("conditional");
-
-        Ctc.put(lineNumber,lineValue);
-    }
-
-    @Override
-    public HashMap<Integer, Integer> cGetValues() {
-        return Ctc;
-    }
-
 }

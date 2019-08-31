@@ -1,3 +1,5 @@
+package inheritance;
+
 import java.util.StringTokenizer;
 
 public class Inheritance {
@@ -8,6 +10,10 @@ public class Inheritance {
 	
 	public boolean isClassFound() {
 		return classFound;
+	}
+
+	public int getCi(){
+		return Ci;
 	}
 
 
@@ -22,8 +28,8 @@ public class Inheritance {
 
         //break words in each line
         word = stTokenizer.nextToken();
-        System.out.println(word);
-        if(word.equals("Class")) {
+
+        if(word.equals("class")) {
         	this.setClassFound(true);
         }
         if(word.equals("extends") && classFound == true) {

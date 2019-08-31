@@ -70,7 +70,7 @@ public class EmployeeService extends UtilC {
 		try {
 			preparedStatement = connection.prepareStatement(UtilQ.Q("q3"));
 			connection.setAutoCommit(false);
-			for(int i = 0; i < el.size(); i++){
+			for ( int i = 0; i < el.size(); i++){
 				Employee employee = el.get(i);
 				preparedStatement.setString(1, employee.getEmployeeID());
 				preparedStatement.setString(2, employee.getFullName());
@@ -110,7 +110,11 @@ public class EmployeeService extends UtilC {
 
 	public void EMPLOYEEDELETE(String eid) {
 
+		if (true && true && true) {
+
+		}
 		try {
+			&&
 			preparedStatement = connection.prepareStatement(UtilQ.Q("q6"));
 			preparedStatement.setString(1, eid);
 			preparedStatement.executeUpdate();
