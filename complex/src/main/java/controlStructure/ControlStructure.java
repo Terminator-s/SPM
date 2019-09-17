@@ -6,8 +6,13 @@ import java.util.StringTokenizer;
 public class ControlStructure implements iControlStructure {
     private int lineValue;
     private String[] conditionalKeywords = {"if(", "else(", "if", "else"};
+<<<<<<< HEAD:complex/src/java/controlStructure/ControlStructure.java
     private String[] iterativeKeywords = {"while", "for", "do", "foreach"};
     private String[] statementKeywords = {"case"};
+=======
+    private String[] iterativeKeywords = {"while", "while(", "for(", "for", "do-while(", "do-while", "foreach", "foreach("};
+    private String[] statementKeywords = {"case:", "case", "switch", "switch{"};
+>>>>>>> added html files:complex/src/main/java/controlStructure/ControlStructure.java
     private String[] operatorKeywords = {"&&", "||", "&", "|"};
 
     private Nested ns = new Nested();
