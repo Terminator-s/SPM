@@ -6,7 +6,7 @@ public class ControlStructure implements iControlStructure {
     private int lineValue;
     private String[] conditionalKeywords = {"if(", "else(", "if", "else"};
     private String[] iterativeKeywords = {"while", "while(", "for(", "for", "do-while(", "do-while", "foreach", "foreach("};
-    private String[] statementKeywords = {"case:", "case"};
+    private String[] statementKeywords = {"case:", "case", "switch", "switch{"};
     private String[] operatorKeywords = {"&&", "||", "&", "|"};
 
     private Nested ns = new Nested();

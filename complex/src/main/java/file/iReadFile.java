@@ -1,9 +1,10 @@
-package Main;
+package file;
 
-import org.json.simple.parser.ParseException;
+//import org.json.simple.parser.ParseException;
 
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.ParseException;
 
 public interface iReadFile {
 

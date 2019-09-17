@@ -1,4 +1,4 @@
-package Main;
+package file;
 
 public class TotalComplexity {
     // Ctc = Measuring the complexity of a program statement due to type of control structures

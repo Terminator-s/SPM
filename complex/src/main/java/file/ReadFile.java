@@ -1,13 +1,13 @@
-package Main;
+package file;
 
 import controlStructure.ControlStructure;
 import controlStructure.Nested;
 import controlStructure.iControlStructure;
 import inheritance.Inheritance;
-import org.json.simple.parser.ParseException;
-import size.SizeFactor;
+//import org.json.simple.parser.ParseException;
 
 import java.io.*;
+import java.text.ParseException;
 
 public class ReadFile implements iReadFile {
        int noOfLines = 0;
@@ -19,7 +19,7 @@ public class ReadFile implements iReadFile {
 
         //control structure object
         int noOfLines = 0;
-        SizeFactor size = new SizeFactor();
+//        SizeFactor size = new SizeFactor();
         TotalComplexity tc=new TotalComplexity();
 
         //read the file
@@ -32,8 +32,8 @@ public class ReadFile implements iReadFile {
             noOfLines++;
 
             /* call for size factor************** */
-            size.checkLineForTokens(line);
-            int Cs = size.getTotalCs();
+//            size.checkLineForTokens(line);
+//            int Cs = size.getTotalCs();
 
             Nested ns = new Nested();
             int Cnc=ns.getCNC();
@@ -46,12 +46,12 @@ public class ReadFile implements iReadFile {
 
 
             int Tw =tc.calculateTotalweight(Ctc,Cnc,Ci);
-            int Cps=tc.calculateCps(Cs,Tw);
+//            int Cps=tc.calculateCps(Cs,Tw);
 
 
 
-            System.out.println(line + "\t\tCS:"+ Cs + "\t\tTW:" + Tw  +"\t\tCPS:" + Cps+ "\t\tCNC:" +Cnc +"\t\tCTC:"+Ctc +"\t\tCI:"+Ci);
-
+//            System.out.println(line + "\t\tCS:"+ Cs + "\t\tTW:" + Tw  +"\t\tCPS:" + Cps+ "\t\tCNC:" +Cnc +"\t\tCTC:"+Ctc +"\t\tCI:"+Ci);
+            System.out.println(line + "\t\tTW:" + Tw + "\t\tCNC:" +Cnc +"\t\tCTC:"+Ctc +"\t\tCI:"+Ci);
 
         }
 
