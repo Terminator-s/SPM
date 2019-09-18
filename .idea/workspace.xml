@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f306d734-d378-45b4-bba0-8eda5121dc64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/controlStructure/ControlStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/controlStructure/Nested.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/controlStructure/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/controlStructure/iControlStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/file/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/file/TotalComplexity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/file/iReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/file/mainn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/inheritance/Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/inheritance/iInherit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/size/SizeFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/size/iSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javaee_api_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javaee_api_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_simple_2_1_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/Compare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/Remove.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/Upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/View.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/css/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/client/res/pi.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/controlStructure/ControlStructure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/controlStructure/Nested.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/controlStructure/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/controlStructure/iControlStructure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/file/ReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/file/TotalComplexity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/file/iReadFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/file/mainn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/inheritance/Inheritance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/inheritance/iInherit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/size/SizeFactor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/java/size/iSize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/resources/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complex/src/main/resources/sizeFactors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SPM/META-INF/SPM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPM/Main/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPM/Main/ReadFile.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,18 +38,66 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+            <state relative-caret-position="144">
+              <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/complex/src/resources/EmployeeService.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="847">
+              <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complex/src/java/size/Size.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>count</find>
+      <find>totalCs</find>
+      <find>getTotalCs</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +113,8 @@
         <option value="$PROJECT_DIR$/complex/src/java/Main/demo.java" />
         <option value="$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/TotalComplexity.java" />
+        <option value="$PROJECT_DIR$/complex/src/java/size/SizeFactor.java" />
+        <option value="$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" />
       </list>
     </option>
@@ -156,7 +171,15 @@
               <item name="complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="controlStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="size" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19001000" />
+    <option name="totallyTimeSpent" value="21305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -282,7 +305,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -303,8 +326,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="JSF" order="9" />
-      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="JSF" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
@@ -349,36 +372,10 @@
     <entry file="file://$PROJECT_DIR$/complex/src/java/size/iSize.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/size/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/Main/demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/iControlStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,20 +408,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
+    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/iControlStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/resources/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
+    <entry file="file://$PROJECT_DIR$/complex/src/java/size/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
         </state>
       </provider>
     </entry>

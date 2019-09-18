@@ -1,5 +1,6 @@
 package Main;//import controlStructure.ControlStructure;
 
+import Recursion.Recursion;
 import org.json.simple.parser.ParseException;
 import size.SizeFactor;
 
@@ -19,6 +20,7 @@ public class ReadFile  {
         //control structure object
         int noOfLines = 0;
         SizeFactor size = new SizeFactor();
+        Recursion recursion = new Recursion();
         TotalComplexity tc=new TotalComplexity();
 
         //ControlStructure cs = new ControlStructure();
@@ -38,7 +40,9 @@ public class ReadFile  {
                 int Tw =tc.calculateTotalweight(4,5,6);
                 int Cps=tc.calculateCps(Cs,Tw);
 
-                System.out.println(line + "\t\t"+ Cs + "\t\t" + Tw + "\t\t" + Cps );
+                int Cr = recursion.getTotalCr();
+
+                System.out.println(line + "\t\t"+ Cs + "\t\t" + Cr + "\t\t" + Tw + "\t\t" + Cps );
 
 
 
