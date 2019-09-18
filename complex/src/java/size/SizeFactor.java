@@ -42,7 +42,7 @@ public class SizeFactor {
         int Cs=0;
 
         JSONParser parser =new JSONParser();
-        Object obj =parser.parse(new FileReader("C:\\Users\\pavrlk\\eclipse-workspace2\\Test\\resources\\sizeFactors.json") );
+        Object obj =parser.parse(new FileReader("C:\\Users\\Vishali\\Documents\\GitHub\\SPM\\complex\\src\\resources\\sizeFactors.json") );
         JSONObject jsonObject = (JSONObject) obj;
         Set objectkeys = jsonObject.keySet();
 

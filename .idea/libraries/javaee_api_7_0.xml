@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="javaee-api-7.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../javaee-api-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../java files/javaee-api-7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../java files/json-simple-2.1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
