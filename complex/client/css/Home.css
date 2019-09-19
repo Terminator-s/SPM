@@ -42,6 +42,7 @@
         padding-bottom: 140px;
     }
 
-    .view{
-            padding:20%;
+    .scrollable {
+        height: 350px;
+        overflow-y: scroll;
     }

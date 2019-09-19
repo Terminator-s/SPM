@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f306d734-d378-45b4-bba0-8eda5121dc64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/complex/client/images/bgImage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SPM/Main/TotalComplexityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPM/Main/TotalComplexityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/Remove.html" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/Remove.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/client/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/complex/client/css/Home.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/complex/client/css/Home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="427">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/complex/client/Remove.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="50" column="28" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -109,10 +107,10 @@
         <option value="$PROJECT_DIR$/complex/client/Home.html" />
         <option value="$PROJECT_DIR$/complex/client/Compare.html" />
         <option value="$PROJECT_DIR$/complex/client/View.html" />
-        <option value="$PROJECT_DIR$/complex/client/css/Home.css" />
         <option value="$PROJECT_DIR$/complex/client/Upload.html" />
         <option value="$PROJECT_DIR$/complex/src/resources/EmployeeService.java" />
         <option value="$PROJECT_DIR$/complex/client/Remove.html" />
+        <option value="$PROJECT_DIR$/complex/client/css/Home.css" />
       </list>
     </option>
   </component>
@@ -122,7 +120,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -141,52 +139,6 @@
             <path>
               <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPM" type="462c0819:PsiDirectoryNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,12 +271,12 @@
       <workItem from="1565355455845" duration="2282000" />
       <workItem from="1565405621799" duration="12241000" />
       <workItem from="1565492338293" duration="3646000" />
-      <workItem from="1568862894891" duration="8693000" />
+      <workItem from="1568862894891" duration="10294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30482000" />
+    <option name="totallyTimeSpent" value="32083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -571,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/complex/client/css/Home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/Main/TotalComplexity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -587,8 +532,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/complex/client/Remove.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/css/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
