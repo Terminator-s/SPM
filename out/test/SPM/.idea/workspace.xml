@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f306d734-d378-45b4-bba0-8eda5121dc64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/complex/src/java/Main/TotalComplexityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SPM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/Compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/Compare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/Remove.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/Remove.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/Upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/Upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SPM/complex/client/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SPM/complex/client/css/Home.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,23 +41,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/complex/src/java/Main/TotalComplexity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="223">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/complex/src/java/Main/TotalComplexityTest.java">
+        <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="529">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
               <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +102,16 @@
       <find>count</find>
       <find>totalCs</find>
       <find>getTotalCs</find>
+      <find>Cr</find>
+      <find>Cs</find>
+      <find>isMethodFound</find>
+      <find>getTotalCr</find>
     </findStrings>
+    <replaceStrings>
+      <replace>count</replace>
+      <replace>IsRecursive</replace>
+      <replace>getRecursive</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,10 +127,17 @@
         <option value="$PROJECT_DIR$/complex/src/java/Main/demo.java" />
         <option value="$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/TotalComplexity.java" />
+        <option value="$PROJECT_DIR$/complex/src/java/Main/TotalComplexityTest.java" />
+        <option value="$PROJECT_DIR$/complex/client/Home.html" />
+        <option value="$PROJECT_DIR$/complex/client/Compare.html" />
+        <option value="$PROJECT_DIR$/complex/client/View.html" />
+        <option value="$PROJECT_DIR$/complex/client/Upload.html" />
+        <option value="$PROJECT_DIR$/complex/src/resources/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/complex/client/Remove.html" />
+        <option value="$PROJECT_DIR$/complex/client/css/Home.css" />
         <option value="$PROJECT_DIR$/complex/src/java/size/SizeFactor.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java" />
         <option value="$PROJECT_DIR$/complex/src/java/Main/ReadFile.java" />
-        <option value="$PROJECT_DIR$/complex/src/java/Main/TotalComplexityTest.java" />
       </list>
     </option>
   </component>
@@ -113,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,27 +172,57 @@
             <path>
               <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPM" type="462c0819:PsiDirectoryNode" />
+              <item name="complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="size" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +236,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java files/json-simple-2.1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/complex/client/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -169,6 +248,7 @@
       <recent name="Main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vishali\Documents\GitHub\SPM\complex\client\images" />
       <recent name="C:\Users\Vishali\Documents\GitHub\SPM\out" />
       <recent name="C:\Users\Vishali\Documents\GitHub\SPM\complex\src\resources" />
       <recent name="C:\Users\Vishali\Documents\GitHub\SPM\complex\src\java\size" />
@@ -193,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TotalComplexityTest">
+  <component name="RunManager" selected="Application.ReadFile">
     <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ReadFile" />
       <module name="SPM" />
@@ -249,8 +329,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TotalComplexityTest" />
         <item itemvalue="Application.ReadFile" />
+        <item itemvalue="JUnit.TotalComplexityTest" />
         <item itemvalue="Application.demo" />
       </list>
     </recent_temporary>
@@ -268,17 +348,53 @@
       <workItem from="1565355455845" duration="2282000" />
       <workItem from="1565405621799" duration="12241000" />
       <workItem from="1565492338293" duration="3646000" />
-      <workItem from="1568862894891" duration="1151000" />
+      <workItem from="1568862894891" duration="10450000" />
+      <workItem from="1568899285407" duration="1371000" />
+      <workItem from="1568949243153" duration="2777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22940000" />
+    <option name="totallyTimeSpent" value="36387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -311,22 +427,10 @@
       <window_info anchor="right" id="CDI" order="9" weight="0.32980332" />
       <window_info anchor="right" id="JSF" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -377,49 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/iControlStructure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/resources/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,19 +497,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/Main/TotalComplexityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="265">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/Compare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/Upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/resources/sizeFactors.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/css/Home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/Remove.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/resources/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/client/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="35" column="23" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/controlStructure/ControlStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/size/SizeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/Main/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/complex/src/java/Main/TotalComplexity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="223">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/complex/src/java/Recursion/Recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

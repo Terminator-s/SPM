@@ -21,11 +21,11 @@ public class ReadFile  {
         int noOfLines = 0;
         SizeFactor size = new SizeFactor();
         Recursion recursion = new Recursion();
-        TotalComplexity tc=new TotalComplexity();
+        TotalComplexity tc = new TotalComplexity();
 
         //ControlStructure cs = new ControlStructure();
             //read the file
-            FileReader reader = new FileReader("C:\\Users\\Vishali\\Documents\\GitHub\\SPM\\complex\\src\\resources\\EmployeeService.java");
+            FileReader reader = new FileReader("C:\\Users\\Vishali\\Documents\\GitHub\\SPM\\complex\\src\\resources\\EmployeeService.txt");
             BufferedReader buff = new BufferedReader(reader);
             String line;
 
@@ -36,11 +36,13 @@ public class ReadFile  {
                 /* call for size factor************** */
                 size.checkLineForTokens(line);
                 int Cs = size.getTotalCs();
+                Boolean IsRecursive = recursion.getRecursive();
 
                 int Tw =tc.calculateTotalweight(4,5,6);
                 int Cps=tc.calculateCps(Cs,Tw);
+                int Cr =tc.calculateCr(IsRecursive, Cps);
 
-                int Cr = recursion.getTotalCr();
+
 
                 System.out.println(line + "\t\t"+ Cs + "\t\t" + Cr + "\t\t" + Tw + "\t\t" + Cps );
 

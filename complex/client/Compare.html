@@ -6,9 +6,10 @@
 
     <!-- bootstrap plugins -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/Home.css" type="text/css">
 
@@ -19,19 +20,19 @@
 <body>
 <div class="container-fluid">
     <div class="row content">
-        <div class="col-sm-3 sidenav">
-            <ul class="nav nav-pills nav-stacked">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Upload.html">Upload File</a></li>
-                <li><a href="View.html">View Complexity</a></li>
-                <li class="active"><a href="Compare.html">Compare Files</a></li>
-                <li><a href="Remove.html">remove File</a></li>
-            </ul>
-            <br>
+        <div class="col-sm-3 sidenav" >
+            <br/>
+            <nav class="nav flex-column nav-pills">
+                <a class="nav-link " href="Home.html">Home</a>
+                <a class="nav-link " href="Upload.html">Upload File</a>
+                <a class="nav-link " href="View.html">View Complexity</a>
+                <a class="nav-link active" href="Compare.html" >Compare Files</a>
+                <a class="nav-link " href="Remove.html" >remove File</a>
+            </nav>
         </div>
 
-        <div class="col-sm-9">
-            <h1 class="heading"><b>Complexity Measuring Tool</b></h1>
+        <div class="col-sm-9" style="padding-top: 15px;">
+            <h1 class="text-primary"><b>Complexity Measuring Tool</b></h1>
             <hr>
             <div>
                 <p>*************************add content**************************</p>

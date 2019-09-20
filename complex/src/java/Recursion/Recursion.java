@@ -10,14 +10,14 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class Recursion {
-    private static int TotalCr;
+    private static boolean IsRecursive;
 
-    public static int getTotalCr() {
-        return TotalCr;
+    public static boolean getRecursive() {
+        return IsRecursive;
     }
 
-    public void setTotalCr(int TotalCr) {
-        this.TotalCr = TotalCr;
+    public void setRecursive(boolean IsRecursive) {
+        this.IsRecursive = IsRecursive;
     }
 
     public void readFile(){
@@ -26,9 +26,9 @@ public class Recursion {
         int rightBraces = 0;
         List<String> methodList = new ArrayList<>();
         boolean isMethodFound = false;
-        int Cr = 1;
+        int count = 1;
         String[] returnTypes = {"void", "int", "float", "double", "String"};
-        File file = new File("C:\\Users\\Vishali\\Documents\\GitHub\\SPM\\complex\\src\\resources\\EmployeeService.java");
+        File file = new File("C:\\Users\\Vishali\\Documents\\GitHub\\SPM\\complex\\src\\resources\\EmployeeService.txt");
 
         try{
             reader = new BufferedReader(new FileReader(file));
@@ -83,13 +83,17 @@ public class Recursion {
 
                     for(String part:subParts){
                         if(methodList.contains(part.trim()) && !part.contains("\"") && !isFirstLine){
-                            System.out.println(part + "is a recursive method and it is found in line no. " + Cr);
+                           // System.out.println(part + "is a recursive method and it is found in line no. " + count);
+                            IsRecursive = true;
+                        }
+                        else{
+                            IsRecursive = false;
                         }
                     }
                 }
 
                 if((leftBraces == rightBraces) && (leftBraces > 0) && (rightBraces > 0)){
-                    System.out.println("The method ends at line no. " + Cr + "and braces Cr is " + leftBraces);
+                    System.out.println("The method ends at line no. " + count + "and braces count is " + leftBraces);
 
                     isMethodFound = false;
                     leftBraces = 0;
@@ -99,9 +103,11 @@ public class Recursion {
 
                 System.out.println(line);
                 isFirstLine = false;
-                Cr++;
+                count++;
 
-                setTotalCr(Cr);
+                //IsRecursive = isMethodFound;
+
+                setRecursive(IsRecursive);
 
                 //read next line
                 line = reader.readLine();

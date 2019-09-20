@@ -8,6 +8,21 @@
       height: 100%;
     }
 
+    .bgImage{
+        width: 600px;
+        height: 380px;
+    }
+
+    .description{
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #555555;
+    }
+
+    .heading{
+        color: #2874A6;
+    }
+
     footer {
       background-color: #555;
       color: white;
@@ -24,8 +39,10 @@
     .upload{
         padding:20%;
         border-style:dashed;
+        padding-bottom: 140px;
     }
 
-    .view{
-            padding:20%;
+    .scrollable {
+        height: 350px;
+        overflow-y: scroll;
     }
