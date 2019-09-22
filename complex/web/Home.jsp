@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/Home.css" type="text/css">
 
     <style>
+
     </style>
 </head>
 <body>
@@ -22,11 +23,9 @@
         <div class="col-sm-3 sidenav">
             <ul class="nav nav-pills nav-stacked">
                 <br/>
-                <li class="active"><a href="HomeTemp.html">Home</a></li>
-                <li><a href="Upload.html">Upload File</a></li>
-                <li><a href="View.html">View Complexity</a></li>
-                <li><a href="Compare.html">Compare Files</a></li>
-                <li><a href="Remove.html">remove File</a></li>
+                <li class="active"><a href="Home.jsp">Home</a></li>
+                <li><a href="Upload.jsp">Upload File</a></li>
+<%--                <li><a href="View.jsp">View Complexity</a></li>--%>
             </ul>
             <br>
         </div>
@@ -34,12 +33,6 @@
         <div class="col-sm-9">
             <h1 class="heading"><b>Complexity Measuring Tool</b></h1>
             <hr>
-            <!--            <h4>-->
-            <!--                <small>How it works</small>-->
-            <!--            </h4>-->
-            <!--            <p>you can check the complexity of a code by uploading a document and check complexity-->
-            <!--            blah blah blah........</p>p-->
-
             <table >
                 <tr>
                     <th class="column"><img class="bgImage" src="images/bgImage.jpg" alt="bgImage"></th>

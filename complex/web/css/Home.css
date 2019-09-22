@@ -1,0 +1,48 @@
+
+    .row.content {
+        height: 500px;
+    }
+
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    .bgImage{
+        width: 600px;
+        height: 380px;
+    }
+
+    .description{
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #555555;
+    }
+
+    .heading{
+        color: #2874A6;
+    }
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+
+    .upload{
+        padding:20%;
+        border-style:dashed;
+        padding-bottom: 140px;
+    }
+
+    .scrollable {
+        height: 350px;
+        overflow-y: scroll;
+    }

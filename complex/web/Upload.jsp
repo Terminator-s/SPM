@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,18 +14,17 @@
     <link rel="stylesheet" href="css/Home.css" type="text/css">
 
     <style>
+
     </style>
 </head>
 <body>
 <div class="container-fluid">
-    <div class="row content">
+    <div class="row content" >
         <div class="col-sm-3 sidenav">
             <ul class="nav nav-pills nav-stacked">
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Upload.html">Upload File</a></li>
-                <li class="active"><a href="View.html">View Complexity</a></li>
-                <li><a href="Compare.html">Compare Files</a></li>
-                <li><a href="Remove.html">remove File</a></li>
+                <li><a href="Home.jsp">Home</a></li>
+                <li class="active"><a href="Upload.jsp">Upload File</a></li>
+<%--                <li><a href="View.jsp">View Complexity</a></li>--%>
             </ul>
             <br>
         </div>
@@ -32,11 +32,17 @@
         <div class="col-sm-9">
             <h1 class="heading"><b>Complexity Measuring Tool</b></h1>
             <hr>
-            <div class="view">
+            <div class="upload">
                 <!--*************************add content**************************-->
-                <button type="button" class="btn btn-success">View total complexity</button>
-                <button type="button" class="btn btn-info">View size factor complexity</button>
-                <button type="button" class="btn btn-warning">View control structure complexity</button>
+                <form method ="POST" action="FileUploadServlet" enctype='multipart/form-data'>
+                <tr>
+                    <td>Upload: </td>
+                    <td><input type="file" name="codeFile"/></td>
+                </tr>
+                    <tr>
+                        <td><button type = "submit" class="btn btn-success">View Complexity</button></td>
+                </tr>
+                </form>
             </div>
         </div>
     </div>
@@ -44,7 +50,7 @@
 
 <footer class="container-fluid" align="right">
     <p>Bought to by: SPM_WE_37</p>
-    <p id="timestamp"></p>
+    <p id="timestamp" ></p>
     <script>
         document.getElementById("timestamp").innerHTML = Date();
     </script>

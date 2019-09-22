@@ -13,8 +13,6 @@ public class ControlStructure{
     private String[] switchKeyword = {"switch"};
     private String[] operatorKeywords = {"&&", "||", "&", "|"};
 
-    ValueHolder vh = new ValueHolder();
-
     public ControlStructure() {
         lineValue = 0;
     }

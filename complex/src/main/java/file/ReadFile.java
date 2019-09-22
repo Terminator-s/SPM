@@ -1,64 +1,87 @@
 package file;
 
-import controlStructure.ControlStructure;
-import controlStructure.Nested;
-import controlStructure.iControlStructure;
-import inheritance.Inheritance;
-//import org.json.simple.parser.ParseException;
+import controlStructure.ValueHolder;
 
 import java.io.*;
 import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReadFile implements iReadFile {
-       int noOfLines = 0;
-     iControlStructure cs = new ControlStructure();
+    int noOfLines = 0;
+    public static List<ComplexityFactors> factorList = new ArrayList<>();
+    static Stacks stacks = new Stacks();
+    static Stacks nStack = new Stacks();
+    static Stacks cStack = new Stacks();
+
 
     @Override
     public void getFile() throws IOException, ParseException {
-//        StringBuilder sb = new StringBuilder();
-
-        //control structure object
         int noOfLines = 0;
-//        SizeFactor size = new SizeFactor();
-        TotalComplexity tc=new TotalComplexity();
+
 
         //read the file
-        FileReader reader = new FileReader("src/resources/EmployeeService.java");
+        FileReader reader = new FileReader("src/main/resources/EmployeeService.java");
         BufferedReader buff = new BufferedReader(reader);
         String line;
 
-        //iterate line by line
-        while ((line = buff.readLine()) != null) {
-            noOfLines++;
+//        String data = "";
 
-            /* call for size factor************** */
-//            size.checkLineForTokens(line);
-//            int Cs = size.getTotalCs();
+//        Document document = new Document();
 
-            Nested ns = new Nested();
-            int Cnc=ns.getCNC();
-
-            ControlStructure controlStructure = new ControlStructure();
-            int Ctc = controlStructure.getCTC(line,noOfLines);
-
-            Inheritance inheritance = new Inheritance();
-            int Ci = inheritance.calculateCi(line);
+//        try {
+//            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("report.pdf"));
+//            document.open();
+            //heading
+//            document.add(new Paragraph("Generated  Report"));
 
 
-            int Tw =tc.calculateTotalweight(Ctc,Cnc,Ci);
-//            int Cps=tc.calculateCps(Cs,Tw);
+            //iterate line by line
+            while ((line = buff.readLine()) != null) {
+                noOfLines++;
+                ComplexityFactors factor = new ComplexityFactors(line, noOfLines);
+                factor.setCtc(stacks);
+                factor.setCnc(nStack,cStack);
+//                factor.setCr();
+//            factor.setCi();
+                factorList.add(factor);
 
 
+//            System.out.println(line+ ">>"+ factor.getCtc());
+//                data = line + ">> cr >>" + factor.getCr();
+//                document.add(new Paragraph(data));
+//            }
 
-//            System.out.println(line + "\t\tCS:"+ Cs + "\t\tTW:" + Tw  +"\t\tCPS:" + Cps+ "\t\tCNC:" +Cnc +"\t\tCTC:"+Ctc +"\t\tCI:"+Ci);
-            System.out.println(line + "\t\tTW:" + Tw + "\t\tCNC:" +Cnc +"\t\tCTC:"+Ctc +"\t\tCI:"+Ci);
 
+//            document.close();
+//            writer.close();
+//        } catch (DocumentException e) {
+//            e.printStackTrace();
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
         }
 
         buff.close();
         reader.close();
 
-        System.out.println("number of lines are: "+noOfLines);
+        for (ComplexityFactors cf : factorList){
+            System.out.print(cf.getLine());
+            System.out.print(cf.getCnc());
+            System.out.print("\n");
+        }
+
+//        System.out.println("number of lines are: " + noOfLines);
 
     }
+
+
+    public List<ComplexityFactors> getFactorList() {
+        return factorList;
+    }
+
+    public String data(String data) {
+        return data;
+    }
+
+
 }
